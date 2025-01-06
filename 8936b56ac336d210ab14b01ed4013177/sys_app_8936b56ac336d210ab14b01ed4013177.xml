@@ -2,7 +2,7 @@
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
         <can_edit_in_studio>true</can_edit_in_studio>
-        <enforce_license>none</enforce_license>
+        <enforce_license>log</enforce_license>
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
         <ide_created>AES</ide_created>
@@ -15,7 +15,7 @@
         <license_model>none</license_model>
         <logo>a536b56ac336d210ab14b01ed40131b8</logo>
         <menu/>
-        <name>RaaS</name>
+        <name>RaaS - Hygor</name>
         <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
@@ -32,9 +32,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-02 20:32:45</sys_created_on>
         <sys_id>8936b56ac336d210ab14b01ed4013177</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-02 20:32:47</sys_updated_on>
+        <sys_updated_on>2025-01-06 12:52:06</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
