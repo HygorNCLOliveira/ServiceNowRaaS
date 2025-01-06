@@ -11,7 +11,7 @@
         <element label="Awards" max_length="250" name="awards" type="string"/>
         <element label="Category" max_length="40" name="category" type="string"/>
         <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
-        <element label="Title" max_length="250" name="title" type="string"/>
+        <element display="true" label="Title" max_length="250" name="title" type="string"/>
         <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
         <element label="Genre" max_length="1024" name="genre" reference="x_1593182_raas_genre" type="glide_list"/>
         <element label="Website" max_length="40" name="website" type="url"/>
