@@ -38,7 +38,7 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-06 18:24:48</sys_created_on>
         <sys_id>fa9c353fc33e1210ab14b01ed4013166</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Movie/TVShow/Episode</sys_name>
         <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name>item_option_new_fa9c353fc33e1210ab14b01ed4013166</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 18:33:32</sys_updated_on>
+        <sys_updated_on>2025-01-07 13:34:17</sys_updated_on>
         <table/>
         <tooltip>Select a media</tooltip>
         <topic_block/>

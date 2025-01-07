@@ -22,7 +22,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text> Write here!</example_text>
-        <field/>
+        <field>description</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -39,17 +39,17 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>review</name>
+        <name>description</name>
         <not_available_conversation>false</not_available_conversation>
         <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What is your review</question_text>
+        <question_text>What is your description?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-06 19:09:14</sys_created_on>
         <sys_id>01d7c23bc37e1210ab14b01ed40131b1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>What is your review</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>What is your description?</sys_name>
         <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name>item_option_new_01d7c23bc37e1210ab14b01ed40131b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 19:21:22</sys_updated_on>
+        <sys_updated_on>2025-01-07 13:26:18</sys_updated_on>
         <table/>
         <tooltip>Write your review in the field below</tooltip>
         <topic_block/>
