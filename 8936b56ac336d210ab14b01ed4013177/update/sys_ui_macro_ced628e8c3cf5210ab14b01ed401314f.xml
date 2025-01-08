@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>poster</name>
+        <scoped_name>x_1593182_raas_poster</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 19:55:42</sys_created_on>
+        <sys_id>ced628e8c3cf5210ab14b01ed401314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
+        <sys_update_name>sys_ui_macro_ced628e8c3cf5210ab14b01ed401314f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 19:55:42</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<div style="width: 100%; display: flex; justify-content: center;">
+    <img src="" id="poster_img" style="width: 300px;" />
+</div>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
