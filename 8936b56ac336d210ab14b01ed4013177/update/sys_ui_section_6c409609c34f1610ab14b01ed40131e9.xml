@@ -1,83 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="df0aa5b6c3b61610ab14b01ed401313a" sys_domain="global" table="x_1593182_raas_media" version="3" view="">
+    <sys_ui_section caption="Integration" section_id="6c409609c34f1610ab14b01ed40131e9" sys_domain="global" table="x_1593182_raas_media" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>title</element>
+            <element>integration_state</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-01-10 16:51:25</sys_created_on>
-            <sys_id>fc40d609c34f1610ab14b01ed401310e</sys_id>
+            <sys_id>7440d609c34f1610ab14b01ed4013115</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1593182_raas_media" sys_domain="global" view="Default view">df0aa5b6c3b61610ab14b01ed401313a</sys_ui_section>
+            <sys_ui_section caption="Integration" display_value="Integration" name="x_1593182_raas_media" sys_domain="global" view="Default view">6c409609c34f1610ab14b01ed40131e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-10 16:51:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>x_1593182_raas_poster.xml</element>
+            <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-01-10 16:51:25</sys_created_on>
-            <sys_id>f440d609c34f1610ab14b01ed401310f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="Poster">7a97e42cc3cf5210ab14b01ed4013162</sys_ui_formatter>
-            <sys_ui_section caption="NULL" display_value="" name="x_1593182_raas_media" sys_domain="global" view="Default view">df0aa5b6c3b61610ab14b01ed401313a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-10 16:51:25</sys_updated_on>
-            <sys_user/>
-            <type>formatter</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-10 16:51:25</sys_created_on>
-            <sys_id>b040d609c34f1610ab14b01ed4013110</sys_id>
+            <sys_id>7c40d609c34f1610ab14b01ed4013115</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1593182_raas_media" sys_domain="global" view="Default view">df0aa5b6c3b61610ab14b01ed401313a</sys_ui_section>
+            <sys_ui_section caption="Integration" display_value="Integration" name="x_1593182_raas_media" sys_domain="global" view="Default view">6c409609c34f1610ab14b01ed40131e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-10 16:51:25</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>3</position>
+            <element>integration_error_message</element>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-01-10 16:51:25</sys_created_on>
-            <sys_id>b840d609c34f1610ab14b01ed4013110</sys_id>
+            <sys_id>7440d609c34f1610ab14b01ed4013116</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1593182_raas_media" sys_domain="global" view="Default view">df0aa5b6c3b61610ab14b01ed401313a</sys_ui_section>
+            <sys_ui_section caption="Integration" display_value="Integration" name="x_1593182_raas_media" sys_domain="global" view="Default view">6c409609c34f1610ab14b01ed40131e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-10 16:51:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Integration</caption>
             <header>false</header>
             <name>x_1593182_raas_media</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-03 14:18:08</sys_created_on>
+            <sys_created_on>2025-01-10 16:51:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>df0aa5b6c3b61610ab14b01ed401313a</sys_id>
+            <sys_id>6c409609c34f1610ab14b01ed40131e9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1593182_raas_media</sys_name>
             <sys_overrides/>
             <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
             <sys_policy/>
             <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
-            <sys_update_name>sys_ui_section_df0aa5b6c3b61610ab14b01ed401313a</sys_update_name>
+            <sys_update_name>sys_ui_section_6c409609c34f1610ab14b01ed40131e9</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-03 14:18:08</sys_updated_on>
+            <sys_updated_on>2025-01-10 16:51:24</sys_updated_on>
             <sys_user/>
-            <title>true</title>
+            <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>

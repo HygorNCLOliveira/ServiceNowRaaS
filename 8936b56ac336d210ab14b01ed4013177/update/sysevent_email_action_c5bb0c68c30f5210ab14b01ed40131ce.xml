@@ -39,8 +39,10 @@
         <message_html><![CDATA[<p>Hello ${opened_by.first_name}</p>
 <p>Thank you for your review for the ${media.type} ${media.title}.</p>
 <p>It is <strong>reproved.</strong></p>
-<p><img style="width: 300px;" src="${media.poster}"></p>
-<p>If you want to send more reviews, click <a href="/sp?id=ticket&amp;is_new_order=true&amp;table=x_1593182_raas_review&amp;sys_id=7251d820c38f5210ab14b01ed40131d0">here</a></p>]]></message_html>
+<p>Reproval Reason:<strong> ${reproval_reason}</strong></p>
+<p><img style="width: 300px;" src="&#96;${media.poster}&#96;"></p>
+<p>Media Poster: ${media.poster}</p>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>ReviewReproved</name>
@@ -62,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5bb0c68c30f5210ab14b01ed40131ce</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>ReviewReproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
@@ -70,7 +72,7 @@
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name>sysevent_email_action_c5bb0c68c30f5210ab14b01ed40131ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-08 19:24:56</sys_updated_on>
+        <sys_updated_on>2025-01-09 12:40:27</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
