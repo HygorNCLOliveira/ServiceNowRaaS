@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Suggestion Media">c53c1acec34b5a10ab14b01ed4013194</sc_cat_item>
+        <sc_category display_value="RaaS">49a23533c33e1210ab14b01ed4013128</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 20:23:43</sys_created_on>
+        <sys_id>7f9d1642c38b5a10ab14b01ed4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RaaS.Suggestion Media</sys_name>
+        <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
+        <sys_update_name>sc_cat_item_category_7f9d1642c38b5a10ab14b01ed4013163</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 20:23:43</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>sc_cat_item_category_7f9d1642c38b5a10ab14b01ed4013163</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Suggestion Media">c53c1acec34b5a10ab14b01ed4013194</sc_cat_item><sc_category display_value="RaaS">49a23533c33e1210ab14b01ed4013128</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-13 20:23:43</sys_created_on><sys_id>7f9d1642c38b5a10ab14b01ed4013163</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RaaS.Suggestion Media</sys_name><sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package><sys_policy/><sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope><sys_update_name>sc_cat_item_category_7f9d1642c38b5a10ab14b01ed4013163</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-13 20:23:43</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1054659335</payload_hash>
+        <record_name>RaaS.Suggestion Media</record_name>
+        <reverted_from/>
+        <source>449198cbc3b25610ab14b01ed40131b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 20:23:43</sys_created_on>
+        <sys_id>ff9d1642c38b5a10ab14b01ed4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194615625570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 20:23:43</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>f39d1642e08b5a1062f073be578a5467</update_guid>
+        <update_guid_history>f39d1642e08b5a1062f073be578a5467:1054659335</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="RaaS.Suggestion Media">f4206a06c38b5a10ab14b01ed401313c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 20:34:42</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>02265c27cf1b450b80134c27037f06f1</sys_id>
+        <sys_metadata>7f9d1642c38b5a10ab14b01ed4013163</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RaaS.Suggestion Media</sys_name>
+        <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
+        <sys_scope_delete display_value="">7d4f658c7fa74fe9a550b3419a531e39</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_7f9d1642c38b5a10ab14b01ed4013163</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_7f9d1642c38b5a10ab14b01ed4013163">ff9d1642c38b5a10ab14b01ed4013167</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 20:34:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

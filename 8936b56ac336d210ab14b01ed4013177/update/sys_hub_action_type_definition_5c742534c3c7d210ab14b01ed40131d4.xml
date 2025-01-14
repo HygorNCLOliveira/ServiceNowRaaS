@@ -14,7 +14,7 @@
         <copied_from_name/>
         <description/>
         <flow_priority/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>integration_omdb_api</internal_name>
         <label_cache>[{"name":"{{action.title}}","label":"action➛Title","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.year}}","label":"action➛Year","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].endpoint}}","label":"step➛Variables Initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"6b8d6c50-0d1c-4eab-aac6-3cad89488ef9"}},{"name":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].apikey}}","label":"step➛Variables Initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"49fea57c-04f0-4bac-accd-10c71caf8f4f"}},{"name":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].plot}}","label":"step➛Variables Initialization➛Plot","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"8cf3eee7-4e9d-49a1-b0c8-3ca8dfdf55ec"}},{"name":"{{step[56c77ba8-f239-4999-b75e-3d7052d74988].response_body}}","label":"step➛OMDB Integration➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[aff6cce5-59d0-49ca-9d38-586f56354c96].root}}","label":"step➛Parse ResponseBody➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD8441bdf40f0bd2106d6abcd279c348c1","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"5b0363d5-be81-42eb-b042-1d76ebe37eff"}},{"name":"{{step[56c77ba8-f239-4999-b75e-3d7052d74988].error_code}}","label":"step➛OMDB Integration➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[aff6cce5-59d0-49ca-9d38-586f56354c96].__step_status__.code}}","label":"step➛Parse ResponseBody➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[56c77ba8-f239-4999-b75e-3d7052d74988].status_code}}","label":"step➛OMDB Integration➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
         <master_snapshot>78527578c30bd210ab14b01ed40131bf</master_snapshot>
@@ -24,14 +24,14 @@
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 19:01:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5c742534c3c7d210ab14b01ed40131d4</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>integration OMDB Api </sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_5c742534c3c7d210ab14b01ed40131d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:33:00</sys_updated_on>
+        <sys_updated_on>2025-01-13 19:28:57</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -508,10 +508,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 19:24:07</sys_created_on>
         <sys_id>3799edbcc3c7d210ab14b01ed401318a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 19:57:27</sys_updated_on>
+        <sys_updated_on>2025-01-13 00:22:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3799edbcc3c7d210ab14b01ed401318a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -536,10 +536,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 19:57:27</sys_created_on>
         <sys_id>0441bdf4c30bd210ab14b01ed40131ba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 19:57:27</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[]}</value>
+        <sys_updated_on>2025-01-13 00:22:30</sys_updated_on>
+        <value>{}</value>
         <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -645,11 +645,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 19:24:07</sys_created_on>
         <sys_id>08a9edbcc3c7d210ab14b01ed40131a2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 19:24:07</sys_updated_on>
+        <sys_updated_on>2025-01-13 00:22:30</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].endpoint}}?apikey={{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].apikey}}&amp;t={{action.title}}&amp;type={{action.type}}&amp;y={{action.year}}&amp;plot={{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].plot}}</value>
+        <value>{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].endpoint}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>capabilities</field>
@@ -729,11 +729,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 19:57:27</sys_created_on>
         <sys_id>8841bdf4c30bd210ab14b01ed40131b9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 19:57:27</sys_updated_on>
+        <sys_updated_on>2025-01-13 00:22:30</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
+        <value>{"type":"ADV_NV","value":[{"name":"apikey","value":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].apikey}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"t","value":"{{action.title}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"type","value":"{{action.type}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"y","value":"{{action.year}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"plot","value":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].plot}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=3799edbcc3c7d210ab14b01ed401318a"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=3799edbcc3c7d210ab14b01ed401318a"/>
@@ -884,7 +884,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9841bdf4c30bd210ab14b01ed40131c1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -892,7 +892,7 @@
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:33:00</sys_updated_on>
+        <sys_updated_on>2025-01-13 19:28:54</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1409,14 +1409,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 19:04:53</sys_created_on>
         <sys_id>0e356d74c3c7d210ab14b01ed40131b8</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:33:00</sys_updated_on>
+        <sys_updated_on>2025-01-13 19:28:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1443,7 +1443,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7402bd38c30bd210ab14b01ed4013113</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1451,7 +1451,7 @@
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:33:00</sys_updated_on>
+        <sys_updated_on>2025-01-13 19:28:54</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -1556,20 +1556,20 @@
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 09/01/2025 16:04:53">c6356d74c3c7d210ab14b01ed40131d1</action_status_metadata_id>
         <condition>{{step[aff6cce5-59d0-49ca-9d38-586f56354c96].__step_status__.code}}=1</condition>
-        <dont_treat_as_error>false</dont_treat_as_error>
+        <dont_treat_as_error>true</dont_treat_as_error>
         <label>Paerse Step Failure</label>
         <order>2</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"500"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration error: check the OMDB URL"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 20:33:00</sys_created_on>
         <sys_id>05693d70c34bd210ab14b01ed4013181</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:33:00</sys_updated_on>
+        <sys_updated_on>2025-01-13 19:28:48</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 09/01/2025 16:04:53">c6356d74c3c7d210ab14b01ed40131d1</action_status_metadata_id>
-        <condition>{{step[56c77ba8-f239-4999-b75e-3d7052d74988].error_code}}=</condition>
+        <condition>{{step[56c77ba8-f239-4999-b75e-3d7052d74988].error_code}}=1</condition>
         <dont_treat_as_error>true</dont_treat_as_error>
         <label>OMDB Step Failure</label>
         <order>1</order>
@@ -1577,9 +1577,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 20:33:00</sys_created_on>
         <sys_id>0d693d70c34bd210ab14b01ed4013180</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:33:00</sys_updated_on>
+        <sys_updated_on>2025-01-13 00:22:31</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_5c742534c3c7d210ab14b01ed40131d4^sys_idNOT IN42356d74c3c7d210ab14b01ed40131a2,8e356d74c3c7d210ab14b01ed401319d,ca356d74c3c7d210ab14b01ed4013199"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1727,17 +1727,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="integration OMDB Api ">5c742534c3c7d210ab14b01ed40131d4</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6952b578c30bd210ab14b01ed40131a4","name":"plan","plan_signature":null}}</plan>
-        <snapshot>5152b578c30bd210ab14b01ed4013151</snapshot>
+        <snapshot>ad11da02c34b5a10ab14b01ed4013180</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 20:02:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6952b578c30bd210ab14b01ed40131a4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:02:11</sys_updated_on>
+        <sys_updated_on>2025-01-13 19:28:58</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1754,7 +1754,7 @@
         <description/>
         <flow_priority/>
         <internal_name>integration_omdb_api</internal_name>
-        <label_cache>[{"name":"{{action.title}}","label":"action➛Title","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.year}}","label":"action➛Year","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].endpoint}}","label":"step➛Variables Initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"6b8d6c50-0d1c-4eab-aac6-3cad89488ef9"}},{"name":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].apikey}}","label":"step➛Variables Initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"49fea57c-04f0-4bac-accd-10c71caf8f4f"}},{"name":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].plot}}","label":"step➛Variables Initialization➛Plot","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"8cf3eee7-4e9d-49a1-b0c8-3ca8dfdf55ec"}},{"name":"{{step[56c77ba8-f239-4999-b75e-3d7052d74988].response_body}}","label":"step➛OMDB Integration➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[aff6cce5-59d0-49ca-9d38-586f56354c96].root}}","label":"step➛Parse ResponseBody➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD8441bdf40f0bd2106d6abcd279c348c1","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"5b0363d5-be81-42eb-b042-1d76ebe37eff"}}]</label_cache>
+        <label_cache>[{"name":"{{action.title}}","label":"action➛Title","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.year}}","label":"action➛Year","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].endpoint}}","label":"step➛Variables Initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"6b8d6c50-0d1c-4eab-aac6-3cad89488ef9"}},{"name":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].apikey}}","label":"step➛Variables Initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"49fea57c-04f0-4bac-accd-10c71caf8f4f"}},{"name":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].plot}}","label":"step➛Variables Initialization➛Plot","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"8cf3eee7-4e9d-49a1-b0c8-3ca8dfdf55ec"}},{"name":"{{step[56c77ba8-f239-4999-b75e-3d7052d74988].response_body}}","label":"step➛OMDB Integration➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[aff6cce5-59d0-49ca-9d38-586f56354c96].root}}","label":"step➛Parse ResponseBody➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD8441bdf40f0bd2106d6abcd279c348c1","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"5b0363d5-be81-42eb-b042-1d76ebe37eff"}},{"name":"{{step[56c77ba8-f239-4999-b75e-3d7052d74988].error_code}}","label":"step➛OMDB Integration➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[aff6cce5-59d0-49ca-9d38-586f56354c96].__step_status__.code}}","label":"step➛Parse ResponseBody➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[56c77ba8-f239-4999-b75e-3d7052d74988].status_code}}","label":"step➛OMDB Integration➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
         <master>true</master>
         <name>integration OMDB Api </name>
         <natlang/>
@@ -1767,7 +1767,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>78527578c30bd210ab14b01ed40131bf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1775,7 +1775,7 @@
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:02:08</sys_updated_on>
+        <sys_updated_on>2025-01-13 00:22:39</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2371,7 +2371,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4d52b578c30bd210ab14b01ed401312e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2379,7 +2379,7 @@
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:02:09</sys_updated_on>
+        <sys_updated_on>2025-01-13 19:28:56</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2507,10 +2507,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 20:02:09</sys_created_on>
         <sys_id>8952b578c30bd210ab14b01ed4013104</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:02:09</sys_updated_on>
+        <sys_updated_on>2025-01-13 00:22:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8952b578c30bd210ab14b01ed4013104"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2577,10 +2577,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 20:02:09</sys_created_on>
         <sys_id>8552b578c30bd210ab14b01ed4013128</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:02:09</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[]}</value>
+        <sys_updated_on>2025-01-13 00:22:39</sys_updated_on>
+        <value>{}</value>
         <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2644,11 +2644,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 20:02:09</sys_created_on>
         <sys_id>4952b578c30bd210ab14b01ed4013126</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:02:09</sys_updated_on>
+        <sys_updated_on>2025-01-13 00:22:39</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].endpoint}}?apikey={{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].apikey}}&amp;t={{action.title}}&amp;type={{action.type}}&amp;y={{action.year}}&amp;plot={{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].plot}}</value>
+        <value>{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].endpoint}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>capabilities</field>
@@ -2728,11 +2728,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 20:02:09</sys_created_on>
         <sys_id>cd52b578c30bd210ab14b01ed4013126</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:02:09</sys_updated_on>
+        <sys_updated_on>2025-01-13 00:22:39</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
+        <value>{"type":"ADV_NV","value":[{"name":"apikey","value":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].apikey}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"t","value":"{{action.title}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"type","value":"{{action.type}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"y","value":"{{action.year}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"plot","value":"{{step[6d60dc83-c5ed-40af-929b-14e4c17b6f97].plot}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=8952b578c30bd210ab14b01ed4013104"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=8952b578c30bd210ab14b01ed4013104"/>
@@ -3145,14 +3145,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 20:02:10</sys_created_on>
         <sys_id>5552b578c30bd210ab14b01ed4013144</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:02:10</sys_updated_on>
+        <sys_updated_on>2025-01-13 19:28:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3179,7 +3179,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5552b578c30bd210ab14b01ed401313a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3187,7 +3187,7 @@
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 20:02:10</sys_updated_on>
+        <sys_updated_on>2025-01-13 19:28:56</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -3288,7 +3288,35 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-09 20:02:10</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9d52b578c30bd210ab14b01ed4013150"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9d52b578c30bd210ab14b01ed4013150^sys_idNOT IN2511da02c34b5a10ab14b01ed4013180,ad11da02c34b5a10ab14b01ed401317f"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 09/01/2025 17:02:10">9d52b578c30bd210ab14b01ed4013150</action_status_metadata_id>
+        <condition>{{step[aff6cce5-59d0-49ca-9d38-586f56354c96].__step_status__.code}}=1</condition>
+        <dont_treat_as_error>true</dont_treat_as_error>
+        <label>Paerse Step Failure</label>
+        <order>2</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"500"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration error: check the OMDB URL"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 19:28:57</sys_created_on>
+        <sys_id>2511da02c34b5a10ab14b01ed4013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 19:28:57</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 09/01/2025 17:02:10">9d52b578c30bd210ab14b01ed4013150</action_status_metadata_id>
+        <condition>{{step[56c77ba8-f239-4999-b75e-3d7052d74988].error_code}}=1</condition>
+        <dont_treat_as_error>true</dont_treat_as_error>
+        <label>OMDB Step Failure</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"500"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration error: check the OMDB URL"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 19:28:57</sys_created_on>
+        <sys_id>ad11da02c34b5a10ab14b01ed401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 19:28:57</sys_updated_on>
+    </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_78527578c30bd210ab14b01ed40131bf^sys_idNOT IN0d527578c30bd210ab14b01ed40131da,70527578c30bd210ab14b01ed40131c6,c1527578c30bd210ab14b01ed40131ca"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>year</element>
