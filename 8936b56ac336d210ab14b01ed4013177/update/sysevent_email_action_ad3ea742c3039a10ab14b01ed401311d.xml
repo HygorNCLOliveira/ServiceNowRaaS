@@ -45,7 +45,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
+        <recipient_fields>opened_by</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to>raas@aoop.com.br</reply_to>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ad3ea742c3039a10ab14b01ed401311d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>SuggestionReproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name>sysevent_email_action_ad3ea742c3039a10ab14b01ed401311d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 02:54:27</sys_updated_on>
+        <sys_updated_on>2025-01-14 15:05:42</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
