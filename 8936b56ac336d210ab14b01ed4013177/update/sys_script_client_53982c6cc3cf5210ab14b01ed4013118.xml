@@ -11,7 +11,7 @@
         <name>Load Poster</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   g_form.getElement("poster_img").src = newValue;
+   g_form.getElement("poster_img").src = g_form.getValue("poster");
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -19,7 +19,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>53982c6cc3cf5210ab14b01ed4013118</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Load Poster</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
@@ -27,7 +27,7 @@
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name>sys_script_client_53982c6cc3cf5210ab14b01ed4013118</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 19:23:27</sys_updated_on>
+        <sys_updated_on>2025-01-15 02:57:24</sys_updated_on>
         <table>x_1593182_raas_media</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

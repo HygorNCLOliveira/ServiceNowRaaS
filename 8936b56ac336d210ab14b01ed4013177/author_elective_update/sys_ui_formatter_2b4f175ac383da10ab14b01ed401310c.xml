@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="DELETE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>process_flow_media.xml</formatter>
+        <name>Process Flow Media</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:50:12</sys_created_on>
+        <sys_id>2b4f175ac383da10ab14b01ed401310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process Flow Media</sys_name>
+        <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
+        <sys_update_name>sys_ui_formatter_2b4f175ac383da10ab14b01ed401310c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:50:12</sys_updated_on>
+        <table>x_1593182_raas_media</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>sys_ui_formatter_2b4f175ac383da10ab14b01ed401310c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter"><sys_ui_formatter action="INSERT_OR_UPDATE"><active>true</active><angular_module/><formatter>process_flow_media.xml</formatter><name>Process Flow Media</name><seismic_component/><sys_class_name>sys_ui_formatter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 19:50:12</sys_created_on><sys_id>2b4f175ac383da10ab14b01ed401310c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Process Flow Media</sys_name><sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package><sys_policy/><sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope><sys_update_name>sys_ui_formatter_2b4f175ac383da10ab14b01ed401310c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 19:50:12</sys_updated_on><table>x_1593182_raas_media</table><type>formatter</type></sys_ui_formatter></record_update>]]></payload>
+        <payload_hash>1260463869</payload_hash>
+        <record_name>Process Flow Media</record_name>
+        <reverted_from/>
+        <source>d26fcbd2c343da10ab14b01ed4013156</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 19:50:12</sys_created_on>
+        <sys_id>2a8f935ac383da10ab14b01ed40131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194665dd1b20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 19:50:12</sys_updated_on>
+        <type>UI Formatter</type>
+        <update_guid>2e8f935a3d83da108766361179caced5</update_guid>
+        <update_guid_history>2e8f935a3d83da108766361179caced5:1260463869</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:39:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_formatter">sys_ui_formatter</sys_db_object>
+        <sys_id>0334d2410a4b4440a9eee2f3b7b9c990</sys_id>
+        <sys_metadata>2b4f175ac383da10ab14b01ed401310c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process Flow Media</sys_name>
+        <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
+        <sys_parent display_value="Media">f20a65b6c3b61610ab14b01ed401318a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
+        <sys_scope_delete display_value="">7d4f658c7fa74fe9a550b3419a531e39</sys_scope_delete>
+        <sys_update_name>sys_ui_formatter_2b4f175ac383da10ab14b01ed401310c</sys_update_name>
+        <sys_update_version display_value="sys_ui_formatter_2b4f175ac383da10ab14b01ed401310c">2a8f935ac383da10ab14b01ed40131d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:39:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

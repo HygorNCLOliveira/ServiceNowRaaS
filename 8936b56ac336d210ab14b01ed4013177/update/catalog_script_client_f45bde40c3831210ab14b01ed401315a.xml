@@ -29,6 +29,7 @@
     top.window.document.getElementById("poster_img").src = g_form.getValue("poster_url");
 	g_form.getValue("poster_url");
 }
+
 ]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f45bde40c3831210ab14b01ed401315a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>LoadPoster</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
@@ -44,7 +45,7 @@
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
         <sys_update_name>catalog_script_client_f45bde40c3831210ab14b01ed401315a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-07 16:52:14</sys_updated_on>
+        <sys_updated_on>2025-01-15 02:08:45</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by display_value="x_1593182_raas.administrator" name="x_1593182_raas.administrator">1d36b56ac336d210ab14b01ed40131a1</assignable_by>
+        <can_delegate>true</can_delegate>
+        <description>Permission for admin to edit the media actor relationship list</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1593182_raas. edit_relationship_actor_media</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix> edit_relationship_actor_media</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 17:46:36</sys_created_on>
+        <sys_id>7f22cf52c303da10ab14b01ed40131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593182_raas. edit_relationship_actor_media</sys_name>
+        <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
+        <sys_update_name>sys_user_role_7f22cf52c303da10ab14b01ed40131b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 17:46:36</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>sys_user_role_7f22cf52c303da10ab14b01ed40131b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by display_value="x_1593182_raas.administrator" name="x_1593182_raas.administrator">1d36b56ac336d210ab14b01ed40131a1</assignable_by><can_delegate>true</can_delegate><description>Permission for admin to edit the media actor relationship list</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1593182_raas. edit_relationship_actor_media</name><scoped_admin>false</scoped_admin><suffix> edit_relationship_actor_media</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 17:46:36</sys_created_on><sys_id>7f22cf52c303da10ab14b01ed40131b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1593182_raas. edit_relationship_actor_media</sys_name><sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package><sys_policy/><sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope><sys_update_name>sys_user_role_7f22cf52c303da10ab14b01ed40131b3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 17:46:36</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>1666664351</payload_hash>
+        <record_name>x_1593182_raas. edit_relationship_actor_media</record_name>
+        <reverted_from/>
+        <source>449198cbc3b25610ab14b01ed40131b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 17:46:36</sys_created_on>
+        <sys_id>04430fd2c303da10ab14b01ed40131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19465eca9670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 17:46:36</sys_updated_on>
+        <type>Role</type>
+        <update_guid>08430fd2bd03da104f36c7ae168b0bac</update_guid>
+        <update_guid_history>08430fd2bd03da104f36c7ae168b0bac:1666664351</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1593182_raas. edit_relationship_actor_media">d7e50f96c303da10ab14b01ed40131e6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 17:58:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>eff2d841faae4d589d93c591ccebaa10</sys_id>
+        <sys_metadata>7f22cf52c303da10ab14b01ed40131b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593182_raas. edit_relationship_actor_media</sys_name>
+        <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
+        <sys_scope_delete display_value="">7d4f658c7fa74fe9a550b3419a531e39</sys_scope_delete>
+        <sys_update_name>sys_user_role_7f22cf52c303da10ab14b01ed40131b3</sys_update_name>
+        <sys_update_version display_value="sys_user_role_7f22cf52c303da10ab14b01ed40131b3">04430fd2c303da10ab14b01ed40131ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 17:58:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

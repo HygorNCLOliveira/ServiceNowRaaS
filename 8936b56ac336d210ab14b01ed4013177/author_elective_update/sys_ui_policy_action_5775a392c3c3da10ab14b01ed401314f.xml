@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>average_rating</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:16:21</sys_created_on>
+        <sys_id>5775a392c3c3da10ab14b01ed401314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>average_rating</sys_name>
+        <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5775a392c3c3da10ab14b01ed401314f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:16:21</sys_updated_on>
+        <table>x_1593182_raas_media</table>
+        <ui_policy display_value="Average rating">61456f52c3c3da10ab14b01ed401316a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=5775a392c3c3da10ab14b01ed401314f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</application>
+        <file_path/>
+        <instance_id>bfb983c3dbce79d0ba7f684e13961980</instance_id>
+        <instance_name>dev195858</instance_name>
+        <name>sys_ui_policy_action_5775a392c3c3da10ab14b01ed401314f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>average_rating</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 20:16:21</sys_created_on><sys_id>5775a392c3c3da10ab14b01ed401314f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>average_rating</sys_name><sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package><sys_policy/><sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope><sys_update_name>sys_ui_policy_action_5775a392c3c3da10ab14b01ed401314f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 20:16:21</sys_updated_on><table>x_1593182_raas_media</table><ui_policy display_value="Average rating">61456f52c3c3da10ab14b01ed401316a</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=5775a392c3c3da10ab14b01ed401314f"/></record_update>]]></payload>
+        <payload_hash>-1451944459</payload_hash>
+        <record_name>average_rating</record_name>
+        <reverted_from/>
+        <source>d26fcbd2c343da10ab14b01ed4013156</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:16:21</sys_created_on>
+        <sys_id>bd85eb52c3c3da10ab14b01ed4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946675c3db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:16:21</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b185eb5239c3da10c03fdbee3368da66</update_guid>
+        <update_guid_history>b185eb5239c3da10c03fdbee3368da66:-1451944459</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 20:42:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>08398adbe9424b628699c920f5862d19</sys_id>
+        <sys_metadata>5775a392c3c3da10ab14b01ed401314f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>average_rating</sys_name>
+        <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
+        <sys_scope_delete display_value="">7d4f658c7fa74fe9a550b3419a531e39</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_5775a392c3c3da10ab14b01ed401314f</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_5775a392c3c3da10ab14b01ed401314f">bd85eb52c3c3da10ab14b01ed4013166</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 20:42:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

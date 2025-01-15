@@ -2,22 +2,22 @@
     <sys_ui_formatter action="INSERT_OR_UPDATE">
         <active>true</active>
         <angular_module/>
-        <formatter>process_flow.xml</formatter>
-        <name>Process Flow</name>
+        <formatter>process_flow_media.xml</formatter>
+        <name>Process Flow Media</name>
         <seismic_component/>
         <sys_class_name>sys_ui_formatter</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-08 20:19:54</sys_created_on>
-        <sys_id>d7cc6c60c3039210ab14b01ed401316d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Process Flow</sys_name>
+        <sys_created_on>2025-01-15 02:25:26</sys_created_on>
+        <sys_id>8e89fce2c34bda10ab14b01ed4013123</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Process Flow Media</sys_name>
         <sys_package display_value="RaaS - Hygor" source="x_1593182_raas">8936b56ac336d210ab14b01ed4013177</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Hygor">8936b56ac336d210ab14b01ed4013177</sys_scope>
-        <sys_update_name>sys_ui_formatter_d7cc6c60c3039210ab14b01ed401316d</sys_update_name>
+        <sys_update_name>sys_ui_formatter_8e89fce2c34bda10ab14b01ed4013123</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 02:42:30</sys_updated_on>
-        <table>x_1593182_raas_review</table>
+        <sys_updated_on>2025-01-15 02:46:55</sys_updated_on>
+        <table>x_1593182_raas_media</table>
         <type>formatter</type>
     </sys_ui_formatter>
 </record_update>
