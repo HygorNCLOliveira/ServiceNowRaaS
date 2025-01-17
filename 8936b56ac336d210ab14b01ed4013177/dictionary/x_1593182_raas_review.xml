@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2bf1de36c37a1610ab14b01ed4013109" extends="task" label="Review" max_length="40" name="x_1593182_raas_review" type="collection">
-        <element label="Media" max_length="32" name="media" reference="x_1593182_raas_media" type="reference"/>
+        <element label="Media" max_length="32" name="media" reference="x_1593182_raas_media" reference_qual="state=3^EQ" reference_qual_condition="state=3^EQ" type="reference"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
         <element choice="3" label="Rating" max_length="250" name="rating" type="choice">
             <choice>
